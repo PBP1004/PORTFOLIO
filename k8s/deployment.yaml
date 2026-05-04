@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: portfolio-app
-          image: psp1004/portfolio-app
+          image: pbp1004/portfolio-app
           ports:
             - containerPort: 80
