@@ -1,0 +1,34 @@
+# Version control
+.git
+.gitattributes
+.gitignore
+
+# Editor / IDE
+.cursor
+.idea
+.vscode
+
+# OS noise
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Secrets (never send into build context)
+.env
+.env.*
+*.pem
+*.key
+
+# Logs & temp
+*.log
+tmp/
+temp/
+
+# Optional: CI / tooling you might add later (safe to ignore for static image)
+.github
+.gitlab-ci.yml
+.husky
+
+# Docs (not served by the container)
+README.md
+*.md
